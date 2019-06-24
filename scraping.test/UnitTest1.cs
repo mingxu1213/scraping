@@ -19,5 +19,14 @@ namespace scraping.test
 
             Debugger.Break();
         }
+
+        [Fact(DisplayName ="Search google for avatars")]
+        public void SearchGoogle()
+        {
+            SearchGoogleForAvatar search = new SearchGoogleForAvatar();
+            search.SearchAvartar();
+
+            Debugger.Break();
+        }
     }
 }
